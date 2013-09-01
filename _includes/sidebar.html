@@ -1,0 +1,32 @@
+<a href="#menu" id="menuLink" class="pure-menu-link">
+    <span></span>
+</a>
+<div class="pure-u" id="menu">
+    <div class="pure-menu pure-menu-open">
+        <!-- <a style="text-transform:none" class="pure-menu-heading" href="/">&mu;&tau;&tau;&alpha;m</a> -->
+        <a style="text-transform:none" class="pure-menu-heading" href="/">utt.am</a>
+
+        <ul>
+            <li class=" ">
+                <a href="/blog">Blog</a>
+            </li>
+          
+            <li class=" ">
+                <a target="new" href="/Resume_Uttam Grandhi.pdf">Resume</a>
+            </li>
+          
+            <li class=" ">
+                <a href="/about/">About</a>
+            </li>
+        </ul>
+	</div>
+    <div class="recent-posts" style="margin-top: 200px; padding: 10px; font-size: 0.9em;">
+        <span style="">Recent Posts</span>
+        <ul style="list-style-type:none; padding-left: 10px; margin: 0.5em 0 !important;">
+            {% for post in site.posts limit: 5 %}
+            <li style="font-size:0.8em;"><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <p style="font-size:0.7em; color: #555; margin: 4px 12px 4px; position: absolute; bottom: 20px;"><em>Uttam</em> means "good" in sanskrit</p>
+</div>

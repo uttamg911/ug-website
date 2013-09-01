@@ -1,0 +1,14 @@
+---
+title: ITP Blog
+layout: default
+category: itp 
+---
+
+<div class="content" style="border:1px solid #EEE; padding: 20px; margin-top: 50px">
+	{% for post in site.posts limit: 10 %}
+
+		<h1>{{ post.title }}</h1>
+		{{ post.content }}
+
+	{% endfor %}
+</div>
