@@ -1,7 +1,7 @@
 ---
 title: Namaskaram World
 layout: posts
-category: itp
+category: blog
 tags: new-york itp hello-world
 ---
 
