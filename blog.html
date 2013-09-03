@@ -1,14 +1,51 @@
 ---
 title: ITP Blog
 layout: default
-category: itp 
 ---
 
-<div class="content" style="border:1px solid #EEE; padding: 20px; margin-top: 50px">
-	{% for post in site.posts limit: 10 %}
-
-		<h1>{{ post.title }}</h1>
-		{{ post.content }}
-		{{ post.url }}
+<div class="content" >
+	<h1 style="border-bottom:1px solid #EEE">{{ page.title }}</h1>
+	<ul>
+	{% for post in site.posts %}
+		{% if post.tags contains 'itp' %}
+    		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;" href="http://utt.am{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
+		{% endif %}
 	{% endfor %}
+	</ul>
+
+	<h3 style="border-bottom:1px solid #EEE"> Physical Computing </h3>
+	<ul>
+		{% for post in site.posts %}
+    		{% if post.tags contains 'pcomp' %}
+        		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a href="http://utt.am{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
+    		{% endif %}
+		{% endfor %}
+	</ul>
+
+	<h3 style="border-bottom:1px solid #EEE"> Introduction to Computational Media </h3>
+	<ul>
+		{% for post in site.posts %}
+    		{% if post.tags contains 'icm' %}
+        		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a href="http://utt.am{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
+    		{% endif %}
+		{% endfor %}
+	</ul>
+
+	<h3 style="border-bottom:1px solid #EEE"> Materials & Building Strategies </h3>
+	<ul>
+		{% for post in site.posts %}
+    		{% if post.tags contains 'materials' %}
+        		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a href="http://utt.am{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
+    		{% endif %}
+		{% endfor %}
+	</ul>
+
+	<h3 style="border-bottom:1px solid #EEE"> Applications </h3>
+	<ul>
+		{% for post in site.posts %}
+    		{% if post.tags contains 'applications' %}
+        		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a href="http://utt.am{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
+    		{% endif %}
+		{% endfor %}
+	</ul>
 </div>
