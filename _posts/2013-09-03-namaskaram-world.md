@@ -5,7 +5,7 @@ category: blog
 tags: itp hello-world
 ---
 
-Beginning of a new adventure, New York University's Interactive Telecommunications Program. _Namaskaram_ World!
+Today marks the beginning of a new adventure. First day of New York University's Interactive Telecommunications Program. _Namaskaram_ World!
 
 <!-- This is the actual comments section -->
 <div id="disqus_thread"></div>
