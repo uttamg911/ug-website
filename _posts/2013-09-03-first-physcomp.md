@@ -7,7 +7,7 @@ tags: itp pcomp
 
 <img style="" src="/images/How_Computer_Sees_Us.png"/>
 
-Today is the first day of Physical Computing Class at ITP. I exchanged ideas with some super awesome creativite people. The class was unlike any other classes that I had attended in the past. A lot of questions were asked like, What is a micro-controller and how is it different from a computer? What is the difference betwen Analog and Digital? What is your favorite tool? It was totally amazing to share ideas, learn different opinions, and understand others' view points. I also learned that the aim of this course would be to create physical interfaces that would engage the users to make them use again and again and not just once. 
+Today is the first day of Physical Computing Class at ITP. I exchanged ideas with some super awesome creativite people. The class was unlike any other classes that I had attended in the past. A lot of questions were asked like, What is a micro-controller and how is it different from a computer? What is the difference betwen Analog and Digital? What is your favorite tool? It was totally amazing to share ideas, learn different opinions, and understand others' view points. I also learned that the aim of this course would be to create physical interfaces that would engage the users and make them use again and again and not just once. 
 
 Here is a list of favorite tools of my friends
 
