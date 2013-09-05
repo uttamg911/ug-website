@@ -8,11 +8,15 @@
 
         <ul>
             <li class=" ">
+                <a href="/projects/">Projects</a>
+            </li>
+            
+            <li class=" ">
                 <a href="/blog/">Blog</a>
             </li>
-          
+
             <li class=" ">
-                <a target="new" href="/Resume_Uttam Grandhi.pdf">Resume</a>
+                <a href="/resume/">Resume</a>
             </li>
           
             <li class=" ">
@@ -23,8 +27,8 @@
     <div class="recent-posts" style="margin-top: 200px; padding: 10px; font-size: 0.9em;">
         <span style="">Recent Posts</span>
         <ul style="list-style-type:none; padding-left: 0px; margin: 4px">
-            {% for post in site.posts limit: 5 %}
-            <li style="font-size:0.8em;"><a class="recent-posts" href="{{ post.url }}">{{ post.title | truncate: 21 }}</a></li>
+            {% for post in site.posts limit: 10 %}
+            <li style="font-size:0.8em;"><a class="recent-posts" href="{{ post.url }}">{{ post.title | truncate: 18 }}</a></li>
             {% endfor %}
         </ul>
     </div>
