@@ -14,7 +14,7 @@ Here is a list of favorite tools of my friends
 <ul style="font-family: Lato ">
 	<li>Tom Igoe - Altman Wrench ( likes its design and utility )</li>
 	<li>TK - Swiss Army Knife ( likes the UX )</li>
-	<li>Jyun - Wire Stripper ( likes the feeling of stripping wire )</li>
+	<li>Jaewoong - Wire Stripper ( likes the feeling of stripping wire )</li>
 	<li>Yoon - Scissors ( likes the way it cuts paper )</li>
 	<li>Batu - 8x8 Midi Interface ( likes because it gives the mental model of XY parameters in space )</li>
 	<li>Jacob - Drafting Tools ( likes the way they function and move across the drafting paper )</li>
