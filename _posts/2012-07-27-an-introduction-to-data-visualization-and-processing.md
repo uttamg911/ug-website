@@ -13,5 +13,5 @@ description: Presented at Fifth Elephant, Big Data Conference hosted by hasgeek,
 
 <p>I presented a talk on data visualization and processing at Fifth Elephant hosted by hasgeek at Bangalore, India on July 27th, 2012.</p>
 
-<p>The talk mainly comprises of an artist's perspective ( my perspective ) on what is data and visualization. I personally like visualizations which are physical in nature and this is what I tried to present in my talk. It also contains a quick and little introduction to processing</p>
+<p>The talk mainly comprises of an artist's perspective ( my perspective ) on what is data and visualization. I personally like visualizations which are physical in nature and this is what I tried to present there. It also contains a quick little introduction to processing</p>
 </p>
