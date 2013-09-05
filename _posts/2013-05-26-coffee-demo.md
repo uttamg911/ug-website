@@ -2,7 +2,7 @@
 title: Coffee Demo
 layout: posts
 category: blog
-tags: css3 portfolio
+tags: css3
 description: Featured on codepen.io homepage
 ---
 <p>
