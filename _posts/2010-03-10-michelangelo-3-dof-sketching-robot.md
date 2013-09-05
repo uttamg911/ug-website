@@ -7,6 +7,7 @@ description: Presented at International Conference on Robotics and Intelligent S
 ---
 
 <p>
+	<img src="/images/michelangelo_iso.bmp">
 	<object width="100%" height="700" type="application/pdf" data="/Michelangelo 3 DOF Sketching Robot_Uttam Grandhi.pdf">
     	<p>Sorry your browser doesn't support .pdf embeds</p>
   	</object>
