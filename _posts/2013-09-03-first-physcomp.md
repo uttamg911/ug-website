@@ -11,7 +11,7 @@ Today is the first day of Physical Computing Class at ITP. I exchanged ideas wit
 
 Here is a list of favorite tools of my friends
 
-<ul style="font-family: Lato ">
+<ul>
 	<li>Tom Igoe - Altman Wrench ( likes its design and utility )</li>
 	<li>TK - Swiss Army Knife ( likes the UX )</li>
 	<li>Jaewoong - Wire Stripper ( likes the feeling of stripping wire )</li>
