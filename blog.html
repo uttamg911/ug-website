@@ -8,35 +8,35 @@ layout: default
 		<h3 style="border-bottom:1px solid #EEE"> Physical Computing </h3>
 		{% for post in site.posts %}
 	    	{% if post.tags contains 'pcomp' %}
-	        	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></li>
+	        	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
 	        {% endif %}
         {% endfor %}
 
 	    <h3 style="border-bottom:1px solid #EEE"> Introduction to Computational Media </h3>
 	    {% for post in site.posts %}
 		    {% if post.tags contains 'icm' %}
-		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></li>
+		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
 		    {% endif %}
 	    {% endfor %}
 
 	    <h3 style="border-bottom:1px solid #EEE"> Materials and Building Strategies </h3>
 	    {% for post in site.posts %}
 		    {% if post.tags contains 'materials' %}
-		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></li>
+		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
 		    {% endif %}
 	    {% endfor %}
 
 	    <h3 style="border-bottom:1px solid #EEE"> Applications </h3>
 	    {% for post in site.posts %}
 		    {% if post.tags contains 'applications' %}
-		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></li>
+		        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
 		    {% endif %}
 	    {% endfor %}
 
 	    <h3 style="border-bottom:1px solid #EEE"> Others </h3>
 	    {% for post in site.posts %}
 		    {% if post.tags contains 'others' %}
-		    	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></li>
+		    	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a></li>
 
 		    {% endif %}
 		{% endfor %}
