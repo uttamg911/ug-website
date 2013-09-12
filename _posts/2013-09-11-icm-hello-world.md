@@ -6,13 +6,13 @@ tags: itp icm
 ---
 <!--<img src="/images/ICM_Hello_World.png"/>-->
 
-I created this piece after an overwhelming talk by Carter Emmart.
+I created this piece after an overwhelming talk by [Carter Emmart](http://www.ted.com/speakers/carter_emmart.html "Carter Emmart profile on TED").
 
 **Challenges & Learnings:**
 
 * Had some technical problems importing .svg files from inkscape. So resorted to working with images.
 * Animating the earth along the orbit required some math effort.
-* Adding the `background()` in the `draw()` method did the trick of eliminating objects drawn in the previous frame.
+* Adding `background()` to the `draw()` method did the trick of eliminating objects drawn in the previous frame.
 
 <iframe style="margin-top:20px; display:block;" width="640" height="400" scrolling="no" frameborder="0" src="http://www.openprocessing.org/sketch/109229/embed/?width=640&height=360&border=true"></iframe>
 
