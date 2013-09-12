@@ -11,6 +11,9 @@ tags: itp icm
 
 {% highlight java %}
 
+//Hello World! created by Uttam Grandhi during Fall-2013 for the course Introduction to Computational Media (ICM) taught by Prof. Daniel Shiffman at the Interactive Telecommunications Program (ITP), NYU.
+//Overwhelmed by an inspiring talk by Carter Emmart
+
 int a = 200;
 int b = 100;
 float theta = 0;
