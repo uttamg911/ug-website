@@ -2,7 +2,7 @@
 title: Happy Ganesh Chaturthi
 layout: posts
 category: blog
-tags: sculpture portfolio
+tags: materials sculpture portfolio
 description: Ganesha idol in synthetic clay
 ---
 
