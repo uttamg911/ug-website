@@ -14,8 +14,7 @@ Good physical interaction can be acheived if,
 - The form ( speaking through the interface ) follows the function ( thinking )
 - The user's capabilities are explored to the fullest while thoroughly engaging him
 
-An example of a digital technology that is not interactive is "Traffic Lights". Though each one of us has been using it for decades, on a day to day basis, not much of an  improvement has been done since its inception. Speaking of its interactivity, it fails in the aspects of listening and thinking. It is completely unaware of people who jump the signal or a pedestrian who just stumbled while crossing the road. It just speaks its algorithmic instructions ( AI based models ) in colors ( sometimes in sound ) and assumes the user to follow certain rules. Also it cannot differentiate between novice / expert drivers and between people who are native / new to the city.
-I see a tremendous scope in making traffic lights interactive if only more people start thinking in the direction of "interactivity".
+An example of a digital technology that is not interactive is "Traffic Lights". Though each one of us has been using it for decades, not much of an  improvement is seen. Speaking of its interactivity, it fails in the aspects of listening and thinking. It is unaware of the drivers who jump the signal or pedestrians who sometimes stumble while crossing the road. It just speaks its algorithmic instructions ( AI based models ) in colors ( and sometimes in sound ) and assumes the user to follow certain rules. Also it cannot differentiate between novice / expert drivers and between people who are native / new to the city. I see a lot of scope in making traffic lights interactive.
 
 ###Miscellaneous Thoughts:
 
