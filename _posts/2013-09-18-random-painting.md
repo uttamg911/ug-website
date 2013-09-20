@@ -48,7 +48,7 @@ void draw(){
       theta = theta + 0.1;
       }
          if( key =='s' || key =='S') {
-             save("Random_Painting"+second()+".png");
+             save("Random_Painting"+random(millis())+".png");
          }
       }    
   
