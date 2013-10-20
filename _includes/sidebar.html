@@ -28,7 +28,7 @@
         <span style="">Recent Posts</span>
         <ul style="list-style-type:none; padding-left: 0px; margin: 4px">
             {% for post in site.posts limit: 10 %}
-            <li style="font-size:0.8em;"><a class="recent-posts" href="{{ post.url }}">{{ post.title | truncate: 18 }}</a></li>
+            <li style="font-size:0.8em;"><a class="recent-posts" href="{{ post.url }}">{{ post.title | truncate: 15 }}</a></li>
             {% endfor %}
         </ul>
     </div>

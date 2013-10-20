@@ -8,7 +8,15 @@ description: Human Hand in 3" Blue Foam
 
 <img style="width:480px;" src="/images/Hand_Final_Reference_LR.jpg"/>
 
-Final sculpture with the reference. Took approximately 2 hours to make this sculpture. Tools used : Blue Foam, Band Saw, Wood File, Sand Paper.
+Final sculpture with the reference. Took approximately 2 hours to make this sculpture.
+
+**Tools & Materials Used**
+
+* Band Saw
+* 3M's 150 grit sand paper
+* Wood Files
+* Needle Files
+* 2" Blue Foam
 
 <img style="width:480px;" src="/images/Hand_Step2_LR.jpg"/>
 
