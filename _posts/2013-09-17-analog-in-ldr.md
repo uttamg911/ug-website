@@ -9,6 +9,8 @@ tags: itp pcomp arduino
 
 <iframe src="//player.vimeo.com/video/74718811" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+https://vimeo.com/77471817
+
 This is a lab to demonstrate analog input to an Arduino using a Light Dependent Resistor (LDR). 
 
 **Challenges & Learnings:**
