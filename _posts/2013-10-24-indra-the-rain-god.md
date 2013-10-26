@@ -85,13 +85,13 @@ tags: itp pcomp installation
 
 	**25th Oct 2013**
 
-	I have spent the whole of today trying to figure out how to send just the peaks in the input signal to the serial channel. After a lot of failed attempts, I realized it would be much easier to just work on the processing sketch as I need to just switch the rain direction. The below video shows corresponding change in the colors of the rectangle when I rotate the arduino to left/right.
+	I have spent the whole of today trying to figure out how to send just the peaks in the input signal to the serial channel. After a lot of failed attempts, I realized it would be much easier to just work on the processing sketch as I need to just switch the rain direction. The below video shows corresponding change in the colors of the rectangle when I rotate the arduino to left/right. Though there is still some noise in the mapped values, it serves the purpose that we are trying to achieve.
 
 	<iframe src="//player.vimeo.com/video/77838120" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 	<img style="width:500px;" src="/images/Indra_Gyro_Switch_Test1.png"/>
 
-	The above screenshot and the video might suggest, the default or zero state of the device would make the rain always fall towards right but we plan to do the switch the direction only after the person blows. Internally the blowing action which would set a boolean flag to true which makes the processing sketch listen to changes in the gyro values.
+	*The above screenshot and the video might suggest, the default or zero state of the device would make the rain always fall towards right but we plan to do the switch the direction only after the person blows. Internally the blowing action which would set a boolean flag to true which makes the processing sketch listen to changes in the gyro values.*
 
 
 
