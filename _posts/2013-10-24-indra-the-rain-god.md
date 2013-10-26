@@ -59,9 +59,11 @@ tags: itp pcomp installation
 
 	<img style="width:480px;" src="/images/Indra_Blow_Sensor_Concept_Test1.jpg"/>
 
+	*Blow Sensor concept made with straws and metal wire*
+
 	<div><iframe src="//player.vimeo.com/video/77765793" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-	Due to time constrains, we are using an 8-bit speaker as a microphone and detecting the blow.
+	Due to time constrains, we are using an 8-bit speaker as a microphone for detecting the blow.
 	
 	* Accelerometer
 
@@ -80,6 +82,20 @@ tags: itp pcomp installation
 	*It is interesting to note how the gyro values spring back to its default value after each rotation. We took approximately 7000 readings from the serial monitor to map the above plot*
 
 	<iframe src="//player.vimeo.com/video/77765794" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+	**25th Oct 2013**
+
+	I have spent the whole of today trying to figure out how to send just the peaks in the input signal to the serial channel. After a lot of failed attempts, I realized it would be much easier to just work on the processing sketch as I need to just switch the rain direction. The below video shows corresponding change in the colors of the rectangle when I rotate the arduino to left/right.
+
+	<iframe src="//player.vimeo.com/video/77838120" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+	<img style="width:480px;" src="/images/Indra_Gyro_Switch_Test1.png"/>
+
+	The above screenshot and the video might suggest, the default or zero state of the device would make the rain always fall towards right but we plan to do the switch the direction only after the person blows. Internally the blowing action which would set a boolean flag to true which makes the processing sketch listen to changes in the gyro values.
+
+
+
+
 
 
 
