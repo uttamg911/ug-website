@@ -3,8 +3,18 @@ title: Random Painting
 layout: posts
 category: blog
 tags: itp icm
+
+
+pictures: 
+  - url: /images/Random_Painting_1.png
+    caption: Random Painting
+    alt: Random Painting
 ---
-<img style="width:600px; margin-left:-50px;" src="/images/Random_Painting_1.png"/>
+
+{% for p in page.pictures %}
+ <img style="width:600px; margin-left:-50px" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
+ <span style="display:block">{{p.caption}}</span>
+{% endfor %}
 
 **How to Paint:**
 
