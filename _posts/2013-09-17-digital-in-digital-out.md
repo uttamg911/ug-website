@@ -3,9 +3,18 @@ title: Digital In Digital Out
 layout: posts
 category: blog
 tags: itp pcomp arduino
+
+
+pictures: 
+  - url: /images/DigitalIn_DigitalOut_LR.jpg
+    caption: Digital In Digital Out setup
+    alt: Digital In Digital Out setup
 ---
 
-<img style="width:480px;" src="/images/DigitalIn_DigitalOut_LR.jpg"/>
+{% for p in page.pictures %}
+ <img style="width:480px;" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
+ <span style="display:block">{{p.caption}}</span>
+{% endfor %}
 
 <iframe src="//player.vimeo.com/video/74718810" width="500" height="667" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

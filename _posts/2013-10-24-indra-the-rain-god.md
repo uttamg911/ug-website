@@ -3,53 +3,42 @@ title: Indra [ The Rain God ]
 layout: posts
 category: blog
 tags: itp pcomp installation
+
+
+pictures: 
+  - url: http://utt.am/images/Indra_Story_Board_Scene1.jpg
+    caption: The Exposition
+  - url: http://utt.am/images/Indra_Story_Board_Scene2.jpg
+    caption: The Rising Action
+  - url: http://utt.am/images/Indra_Story_Board_Scene3.jpg
+    caption: The Climax
+  - url: http://utt.am/images/Indra_Story_Board_Scene4.jpg
+    caption: The Falling Action
+  - url: http://utt.am/images/Indra_Story_Board_Scene5.jpg
+    caption: The Resolution
+  - url: http://utt.am/images/Indra_Prototype_Test1.jpg
+    caption: Acrylic & Foam prototype of the flute
+    heading: Interface
+  - url: http://utt.am/images/Indra_Interactions.jpg
+    caption: Blow/ Blow + Rotate/ Shake
+    heading: Primary interactions
+  - url: http://utt.am/images/Google_Doodle_Andres_Jacques_Garnerin.png
+    caption: Inspired from Google Doodle on Andres Jacques Garnerin's Birthday
+    heading: Visual Style
+  - url: http://utt.am/images/Indra_System_Diagram.jpg
+    caption: Blow Sensor + Gyro + Shake Sensor >>>> Arduino <<<<>>>> Processing >>>> Projector
+    heading: System Diagram
 ---
 
-* **Concept:** The installation allows a user to become *Indra: The Rain God* for the time he/she is interacting with it. The story has a boy and a girl who are separated by distance and nature ( mainly rain & thunder ) brings them together. The game has multiple levels with increasing level of difficulty.
+**Concept:** The installation allows a user to become *Indra: The Rain God* for the time he/she is interacting with it. The story has a boy and a girl who are separated by distance and nature ( mainly rain & thunder ) brings them together. The game has multiple levels with increasing level of difficulty.
 
-<img style="width:500px;" src="/images/Indra_Story_Board_Scene1.jpg"/>
-
-*The Exposition*
-
-<img style="width:500px;" src="/images/Indra_Story_Board_Scene2.jpg"/>
-
-*The Rising Action*
-
-<img style="width:500px;" src="/images/Indra_Story_Board_Scene3.jpg"/>
-
-*The Climax*
-
-<img style="width:500px;" src="/images/Indra_Story_Board_Scene4.jpg"/>
-
-*The Falling Action*
-
-<img style="width:500px;" src="/images/Indra_Story_Board_Scene5.jpg"/>
-
-*The Resolution*
-
-* **Interface:** A flute like device.
-
-<img style="width:500px;" src="/images/Indra_Prototype_Test1.jpg"/>
-
-*Acrylic & Foam prototype of the flute*
-
-* **Interaction:** The user blows into the flute / shakes it to interact with objects on the screen.
-
-<img style="width:500px;" src="/images/Indra_Interactions.jpg"/>
-
-*Primary interactions: Blow/ Blow + Rotate/ Shake*
-
-* **Visual Style:** Minimalistic. 
-
-<img style="width:500px;" src="/images/Google_Doodle_Andres_Jacques_Garnerin.png"/>
-
-*Inspired from Google Doodle on Andres Jacques Garnerin's Birthday*
-
-* **System Diagram:** 
-
-<img style="width:500px;" src="/images/Indra_System_Diagram.jpg"/>
-
-*Blow Sensor + Gyro + Shake Sensor >>>> Arduino <<<<>>>> Processing >>>> Projector*
+{% for p in page.pictures %}
+  {% if {{p.heading}}!="" %}
+    <h3>{{p.heading}}</h3>
+  {% endif %}
+  <img style="width:480px;" src="{{p.url}}" alt="{{p.alt}}"/>
+  <span style="display:block">{{p.caption}}</span>
+{% endfor %}
 
 * **Sensor Concept:**
 

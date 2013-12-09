@@ -3,13 +3,20 @@ title: Analog In ( w/ LDR )
 layout: posts
 category: blog
 tags: itp pcomp arduino
+
+
+pictures: 
+  - url: /images/AnalogIn_LDR_LR.jpg
+    caption: Analog In using a Light Dependent Resistor ( LDR )
+    alt: Analog In using LDR
 ---
 
-<img style="width:480px;" src="/images/AnalogIn_LDR_LR.jpg"/>
+{% for p in page.pictures %}
+ <img style="width:480px;" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
+ <span style="display:block">{{p.caption}}</span>
+{% endfor %}
 
 <iframe src="//player.vimeo.com/video/74718811" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-https://vimeo.com/77471817
 
 This is a lab to demonstrate analog input to an Arduino using a Light Dependent Resistor (LDR). 
 

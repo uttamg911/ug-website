@@ -1,7 +1,7 @@
 ---
 title: Transformers Demo
 layout: posts
-category: blog
+category: works
 tags: css3
 description: Animation done using css3
 ---

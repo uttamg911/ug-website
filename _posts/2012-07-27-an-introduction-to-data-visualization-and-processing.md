@@ -1,8 +1,8 @@
 ---
 title: An Introduction to Data Visualization & Processing
 layout: posts
-category: blog
-tags: talks portfolio
+category: works
+tags: talks
 description: Presented at Fifth Elephant, Big Data Conference hosted by hasgeek, Bangalore, 2012
 ---
 

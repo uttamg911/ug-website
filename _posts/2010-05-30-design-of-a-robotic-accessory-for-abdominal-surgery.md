@@ -1,8 +1,8 @@
 ---
 title: Design of a Robotic Accessory for Abdominal Surgery
 layout: posts
-category: blog
-tags: robotics portfolio
+category: works
+tags: robotics
 description: Presented at Hamlyn Symposium on Medical Robotics, London, UK, 2010
 ---
 

@@ -1,17 +1,27 @@
 ---
 title: "Michelangelo: A 3-DOF Sketching Robot"
 layout: posts
-category: blog
+category: works
 tags: robotics portfolio
 description: Presented at International Conference on Robotics and Intelligent Sensors, Nagoya, Japan, 2010 <br/> Silver at ROBOGAMES, San Francisco, 2009
+
+
+pictures: 
+  - url: /images/michelangelo_iso.bmp
+    alt: Michelangelo CAD render ( Modeled using Pro Engineer )
+    caption: Michelangelo CAD render ( Modeled using Pro Engineer )
+    label: portfolio
 ---
 
+{% for p in page.pictures %}
+ <img style="width:480px;" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
+ <span style="display:block">{{p.caption}}</span>
+{% endfor %}
+
 <p>
-	<img src="/images/michelangelo_iso.bmp">
-	<object width="100%" height="700" type="application/pdf" data="/Michelangelo 3 DOF Sketching Robot_Uttam Grandhi.pdf">
+	<iframe width="480" height="360" src="//www.youtube.com/embed/v23cRTT9Ni4" frameborder="0" allowfullscreen></iframe>
+
+	<object width="480" height="360" type="application/pdf" data="/Michelangelo 3 DOF Sketching Robot_Uttam Grandhi.pdf#view=fitV">
     	<p>Sorry your browser doesn't support .pdf embeds</p>
   	</object>
-  	<br>
-  	<br>
-  	<iframe width="100%" height="480" src="//www.youtube.com/embed/v23cRTT9Ni4" frameborder="0" allowfullscreen></iframe>
 </p>

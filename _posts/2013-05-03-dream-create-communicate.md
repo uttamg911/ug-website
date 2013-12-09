@@ -1,8 +1,8 @@
 ---
 title: Dream Create Communicate
 layout: posts
-category: blog
-tags: design portfolio
+category: works
+tags: design
 description: An interpretation of freedom <br/> One of the top 20 designs for Indo-Africa Poster Design Contest, 2013
 ---
 <p>

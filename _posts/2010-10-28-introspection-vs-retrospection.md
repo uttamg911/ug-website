@@ -1,12 +1,19 @@
 ---
 title: Introspection vs Retrospection
 layout: posts
-category: blog
+category: works
 tags: sculpture portfolio
 description: Sculpture carved on a pumpkin
+
+
+pictures: 
+  - url: /images/Introspection vs Retrospection_Pumpkin.jpg
+    caption: The sculpture is made to convey my feelings on introspection and retrospection
+    alt: Introspection vs Retrospection
+    label: portfolio
 ---
 
-<p>
-	<img style="width:480px;" src="/images/Introspection vs Retrospection_Pumpkin.jpg" alt="Introspection vs Retrospection by Uttam Grandhi"/>
-	<p>The sculpture is made to convey my feelings on introspection and retrospection </p>
-</p>
+{% for p in page.pictures %}
+ <img style="width:480px;" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
+ <span style="display:block">{{p.caption}}</span>
+{% endfor %}

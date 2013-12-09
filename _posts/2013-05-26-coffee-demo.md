@@ -1,7 +1,7 @@
 ---
 title: Coffee Demo
 layout: posts
-category: blog
+category: works
 tags: css3
 description: Featured on codepen.io homepage
 ---
