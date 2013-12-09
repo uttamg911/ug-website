@@ -6,7 +6,7 @@ tags: itp pcomp
 
 
 pictures: 
-  - 
+  - url: /images/Alamo_Tony_Rosenthal.jpg
 ---
 
 {% for p in page.pictures %}
