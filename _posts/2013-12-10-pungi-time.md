@@ -44,10 +44,11 @@ pictures:
  <span style="display:block">{{p.caption}}</span>
 {% endfor %}
 
-**Interactions** The primary interactions in the game are blowing into the flute and pressing buttons and rolling a sphere. 
+**Interactions:**
+The primary interactions in the game are blowing into the flute & pressing buttons and rolling a sphere. 
 
-**Technologies Involved**
-The flute and the sphere communicate with the processing sketch through an XBee Radio communication. The piezo, the switches and the gyroscopes within the flute communicate with the arduino which records the data and sends to the processing sketch via XBee radio communication. Similarly the gyro into the sphere also communicates with the sketch through XBee radio communication as well. 
+**Technologies Involved:**
+The flute and the sphere talk to the processing sketch wirelessly. The piezo, the switches and the gyroscopes within the flute sends data to the arduino which inturn sends it to the processing sketch via XBee radio communication. The gyro in the sphere also communicates with the sketch through a similar XBee radio communication. 
 
 
 
