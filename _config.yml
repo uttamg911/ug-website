@@ -1,7 +1,7 @@
 name: "Utt.am"
 description: "Portfolio and Blog of Uttam Grandhi"
-
 url: "http://localhost:4000"
+
 assetURL: "http://utt.am"
 #You do not need to surround a string with quotation marks unless it contains specific characters, like the colon (":")
 
