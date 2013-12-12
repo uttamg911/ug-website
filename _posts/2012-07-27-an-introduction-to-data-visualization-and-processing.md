@@ -1,5 +1,5 @@
 ---
-title: An Introduction to Data Visualization & Processing
+title: An Introduction to Data Visualization and Processing
 layout: posts
 category: works
 tags: talks
