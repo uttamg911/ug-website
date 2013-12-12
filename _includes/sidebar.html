@@ -11,8 +11,6 @@
                 <a href="/works/" 
                 {% if {{page.url}} contains 'works' %}
                     style="background:#333"
-                {% else %}
-                    style="background:none"
                 {% endif %}
                 >Works</a>
             </li>
@@ -42,8 +40,8 @@
             </li>
         </ul>
 	</div>
-    <div class="recent-posts" style="margin-top: 20px; padding: 10px; font-size: 0.9em;">
-        <span style="">Recent Posts</span>
+    <div class="recent-posts" style="padding: 20px 10px 10px; font-size: 0.9em; border-top: 1px solid #333">
+        <span style="font-size: 1.1em">Recent Posts</span><span style="font-size: 8px;"><a style="color:hotpink" target="_new" href="http://utt.am/atom.xml">ATOM</a></span>
         <ul style="list-style-type:none; padding-left: 0px; margin: 4px">
             {% for post in site.posts limit: 10 %}
             <li style="font-size:0.8em;"><a class="recent-posts" href="{{ post.url }}">{{ post.title | truncate: 15 }}</a></li>
