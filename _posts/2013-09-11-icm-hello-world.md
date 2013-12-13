@@ -4,7 +4,6 @@ layout: posts
 category: blog
 tags: itp icm
 ---
-<!--<img src="/images/ICM_Hello_World.png"/>-->
 
 I created this piece after an overwhelming talk by [Carter Emmart](http://www.ted.com/speakers/carter_emmart.html "Carter Emmart profile on TED").
 
