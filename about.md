@@ -21,6 +21,14 @@ pictures:
 
 <p>Uttam holds a dual degree in Physics and Mechanical Engineering from Birla Institute Of Technology and Science (BITS), Pilani and a diploma in "Digital Character Animation" from Vancouver Film School </p>
 
+<p style="font-size:0.8em; width: 180px; padding:10px; border: 1px solid #ddd"><b>Email:</b> ug251@nyu.edu
+<br/><b>Phone:</b> +1-917-618-5794
+<br/><b>Address:</b>
+<br/>30, River Court
+<br/> #315 
+<br/> Jersey City
+<br/> NJ 07310
+</p>
 </div>
 
 <p style="font-size:0.7em; font-weight: 400; color: #3a87ad; margin: 4px 12px 4px; position: absolute; bottom: 20px; right: 20px; "><em>Uttam&nbsp;</em> means "good" in sanskrit</p>
