@@ -9,37 +9,59 @@ This python code snippet inverts the words in a line.
 
 {% gist 9124985 %}
 
-This unix script translates the letters of a word to numbers ( a-z or A-Z to 1-26 )
+<!--This unix script translates the letters of a word to numbers ( a-z or A-Z to 1-26 )
 
-{% gist 9125443 %}
+{% gist 9125443 %}-->
 
-Examples:
+Example:
 
-When the above code snippets and unix 'sort' are operated in tandem, 
+When the above code snippet and unix 'sort', 'tr 'a-z' '.' are operated in tandem, 
 
 The poem, 
 
-Rose, harsh rose, 
-marred and with stint of petals, 
-meagre flower, thin, 
-spare of leaf,
+<span style="color:#CCC">
 
-more precious 
-than a wet rose 
-single on a stem -- 
-you are caught in the drift.
+<i>Rose, harsh rose,<br/>
+marred and with stint of petals,<br/>
+meagre flower, thin,<br/>
+spare of leaf,<br/>
 
-Stunted, with small leaf, 
-you are flung on the sand, 
-you are lifted 
-in the crisp sand 
-that drives in the wind.
+more precious<br/>
+than a wet rose<br/>
+single on a stem -- <br/>
+you are caught in the drift.<br/>
 
-Can the spice-rose 
-drip such acrid fragrance 
-hardened in a leaf?
+Stunted, with small leaf,<br/>
+you are flung on the sand,<br/>
+you are lifted<br/>
+in the crisp sand<br/>
+that drives in the wind.<br/>
+
+Can the spice-rose<br/>
+drip such acrid fragrance<br/>
+hardened in a leaf?</i>
+
+</span>
 
 gets transformed to
 
+**-- .... . .. ......<br/>
+...... ... .. ...... ... ...<br/>
+......... ..... .... ....<br/>
+...., .. .....<br/>
+...., ..... .... .......,<br/>
+....? . .. ........<br/> 
+...... ... ...<br/> 
+......, .. ..... .... ... ......<br/>
+........ ....<br/>
+.... ... . ....<br/>
+...., ..... ....,<br/>
+.... ..... ... ..<br/>
+...., ... .. ..... ... ...<br/>
+.....-.... ... ...<br/>
+...., ......, ......<br/>
+..... ... .. ...... ....<br/>**
 
-Let the performance begin!
+Each 'dot' is performed as a 'clap'
+
+Let the show begin!
