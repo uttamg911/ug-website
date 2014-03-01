@@ -1,8 +1,41 @@
-var menu = document.getElementById('menu'),
-    menuLink = document.getElementById('menuLink'),
-    layout = document.getElementById('layout'),
+// var menu = document.getElementById('menu'),
+//     menuLink = document.getElementById('menuLink'),
+//     layout = document.getElementById('layout'),
 
-    toggleClass = function (element, className) {
+//     toggleClass = function (element, className) {
+//         var classes = element.className.split(/\s+/),
+//             length = classes.length,
+//             i = 0;
+
+//         for(; i < length; i++) {
+//           if (classes[i] === className) {
+//             classes.splice(i, 1);
+//             break;
+//           }
+//         }
+//         // The className is not found
+//         if (length === classes.length) {
+//             classes.push(className);
+//         }
+
+//         element.className = classes.join(' ');
+//     };
+
+//     menuLink.onclick = function (e) {
+//         e.preventDefault();
+//         var active = 'active';
+//         toggleClass(layout, active);
+//         toggleClass(menu, active);
+//         toggleClass(menuLink, active);
+//     };
+
+window.onload = function() {
+
+    var layout   = document.getElementById('layout'),
+        menu     = document.getElementById('menu'),
+        menuLink = document.getElementById('menuLink');
+
+    function toggleClass(element, className) {
         var classes = element.className.split(/\s+/),
             length = classes.length,
             i = 0;
@@ -19,15 +52,18 @@ var menu = document.getElementById('menu'),
         }
 
         element.className = classes.join(' ');
-    };
+    }
 
     menuLink.onclick = function (e) {
-        e.preventDefault();
         var active = 'active';
+
+        e.preventDefault();
         toggleClass(layout, active);
         toggleClass(menu, active);
         toggleClass(menuLink, active);
     };
+
+};
 
 /* Rainbow v1.1.8 rainbowco.de | included languages: generic, javascript, html, css */
 window.Rainbow=function(){function q(a){var b,c=a.getAttribute&&a.getAttribute("data-language")||0;if(!c){a=a.attributes;for(b=0;b<a.length;++b)if("data-language"===a[b].nodeName)return a[b].nodeValue}return c}function B(a){var b=q(a)||q(a.parentNode);if(!b){var c=/\blang(?:uage)?-(\w+)/;(a=a.className.match(c)||a.parentNode.className.match(c))&&(b=a[1])}return b}function C(a,b){for(var c in e[d]){c=parseInt(c,10);if(a==c&&b==e[d][c]?0:a<=c&&b>=e[d][c])delete e[d][c],delete j[d][c];if(a>=c&&a<e[d][c]||
