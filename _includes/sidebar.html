@@ -12,7 +12,9 @@
                 {% if {{page.url}} contains 'works' %}
                     style="background:#333"
                 {% endif %}
-                >Works</a>
+                >Works
+                <span style="background:yellowgreen; color: #000; font-weight: bold; font-size: 11px; padding: 1px 2px; margin-left: 5px; "> {{ site.categories.works | size | plus: 1 }} </span>
+                </a>
             </li>
             
             <li>
@@ -20,7 +22,9 @@
                 {% if {{page.url}} contains 'blog' %}
                     style="background:#333"
                 {% endif %}
-                >Blog</a>
+                >Blog
+                <span style="background:#3a87ad; color: #000; font-weight: bold; font-size: 11px; padding: 1px 2px; margin-left: 5px; "> {{ site.categories.blog | size | plus: 1}} </span>
+                </a>
             </li>
 
             <li>
