@@ -174,3 +174,20 @@ a:focus {
         padding: 2em 1em 0;
     }
 }
+
+/*div.list-index > li > a { 
+    font-size: 0.7em;
+    background: url('/images/Comments_Icon.png');
+    background-size: 30px 22px;
+    padding: 0px 11px;
+    background-position: 0;
+    background-repeat: no-repeat;
+    color: white;
+    width: 40px !important;
+    position: absolute;
+    height: 30px !important;
+    margin-top: -12px;
+    padding-top: 12px;
+    opacity: 0.5;
+
+}*/
