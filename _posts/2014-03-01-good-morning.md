@@ -13,7 +13,7 @@ pictures:
 ---
 
 <p>
-	<iframe width="480" height="360" src="//www.youtube.com/watch?v=dxX9honElic" frameborder="0" allowfullscreen></iframe>
+	<iframe width="720" height="576" src="//www.youtube.com/embed/dxX9honElic?autoplay=true" frameborder="0" allowfullscreen ></iframe>
 </p>
 
 Greatly inspired from [The Awkward Yeti](http://theawkwardyeti.com/)
