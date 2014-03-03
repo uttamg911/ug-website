@@ -9,6 +9,12 @@ This python code snippet inverts the words in a line.
 
 {% gist 9124985 %}
 
+A better way to write the above code. 
+
+{% gist 9317783 %}
+
+Thanks (@aparrish)[https://twitter.com/aparrish "Adam Parrish"] for the tip.
+
 <!--This unix script translates the letters of a word to numbers ( a-z or A-Z to 1-26 )
 
 {% gist 9125443 %}-->
