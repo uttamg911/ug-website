@@ -22,9 +22,9 @@ layout: default
 	    {% endif %}
     {% endfor %}
 
-    <h3 style="border-bottom:1px solid #EEE"> CSS3 </h3>
+    <h3 style="border-bottom:1px solid #EEE"> Animations </h3>
 	{% for post in site.posts %}
-		{% if post.tags contains 'css3' %}
+		{% if post.tags contains 'css3' or post.tags contains 'animation' %}
 	        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;<a style="font-size: 0.7em; background: #EEE; padding: 2px 4px;"href="http://utt.am{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></li>
 	    {% endif %}
     {% endfor %}

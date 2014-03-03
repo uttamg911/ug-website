@@ -1,7 +1,7 @@
 ---
 title: "Good Morning"
 layout: posts
-category: blog
+category: works
 tags: animation portfolio
 description: An experimental stop-motion animation film
 
