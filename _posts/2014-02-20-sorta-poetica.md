@@ -13,7 +13,7 @@ A better way to write the above code.
 
 {% gist 9317783 %}
 
-Thanks (@aparrish)[https://twitter.com/aparrish "Adam Parrish"] for the tip.
+Thanks [@aparrish](https://twitter.com/aparrish "Adam Parrish") for the tip.
 
 <!--This unix script translates the letters of a word to numbers ( a-z or A-Z to 1-26 )
 
