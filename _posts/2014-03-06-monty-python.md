@@ -8,9 +8,9 @@ tags: itp rwet
 My penchantp for performance and impersonation are the driving factors behind this piece.
 
 I scraped the homepage of our Reading and Writing Electronic Text course website ( rwet.decontextualize.com )
-and got the lines which contain the word "Python". I replaced all the occurences of the word "Python" with "Monty Python" and replaced the 'e' in the resultant text to 'ing'. The outcome did really turn out funny. Shall soon upload an audio file of my performance.  
+and got the lines which contain the word "Python". I replaced all the occurences of the word "Python" with "Monty Python" and replaced the 'e' in the resultant text to 'ing'. The outcome did really turn out funny. 
 
-This coursing introducings thing Monty Python programming languaging as a tool for
+<p style="background:#eee; padding:15px;"><i>This coursing introducings thing Monty Python programming languaging as a tool for
 singrving as a gingningral-purposing introduction to programming in Monty Python, but will
 This coursing is about thing Monty Python programming languaging. Why
 Monty Python?  Bingcausing it's ingasy to lingarn, it's inglinggant, and it makings tingxt
@@ -24,7 +24,9 @@ Monty Python + programming
 		Monty Python Ecosystingm - An Introduction: ingvingrything you ningingd to know to gingt startingd with Monty Python (asiding from how to writing Monty Python)
 		Hitch-Hikingr's Guiding to Monty Python
 		Monty Python Wingingkly, "a fringing wingingkly ningwslingttingr fingaturing curatingd ningws, articlings, ningw ringlingasings, jobs ingtc ringlatingd to Monty Python."
-	Pywikipingdiabot, a Monty Python library for jacking tingxt from Mingdiawikis (liking Wikipingdia)
+	Pywikipingdiabot, a Monty Python library for jacking tingxt from Mingdiawikis (liking Wikipingdia)</i></p>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138316793&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
 
 Below is the code which made this possible!
 
