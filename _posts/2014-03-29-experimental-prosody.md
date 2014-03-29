@@ -7,7 +7,7 @@ tags: itp rwet
 
 This piece has been deeply inspired by Telugu Prosody ( a.k.a [Chandassu](http://en.wikipedia.org/wiki/Telugu_grammar#Chandassu_or_Telugu_prosody) ). It is a form of Metrical poetry where a certain structure is followed to form a verse or lines of a verse. A detailed description on [Metre](http://en.wikipedia.org/wiki/Meter_(poetry)) is available on wikipedia 
 
-The poetic form I devised is very loosely based on Amphibrach foot type in which a long syllable is between two short syllables.
+The poetic form I devised is very loosely based on [Amphibrach](http://www.thehungrypoet.co.uk/tag/amphibrachic/) foot type in which a long syllable is between two short syllables.
 The poem consists of three lines and three letter words. A word is formed by wrapping two single letter phonemes over a two letter phoneme. 
 
 Eg: 
