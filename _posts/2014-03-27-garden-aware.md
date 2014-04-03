@@ -12,5 +12,5 @@ pictures:
     label: portfolio
 ---
 <p>
-	<iframe src="//player.vimeo.com/video/90091918" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<iframe src="//player.vimeo.com/video/90091918" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>
