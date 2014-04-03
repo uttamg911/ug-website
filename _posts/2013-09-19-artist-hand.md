@@ -2,7 +2,7 @@
 title: An Artist's Hand
 layout: posts
 category: works
-tags: materials sculpture portfolio
+tags: materials sculpture
 description: Human Hand in 3" Blue Foam
 
 

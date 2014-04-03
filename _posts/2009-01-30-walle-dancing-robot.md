@@ -3,7 +3,7 @@ title: "WALL.E: Dancing Robot"
 layout: posts
 category: works
 tags: robotics portfolio
-description: Presented at Robogames, San Francisco, 2009 <br/> First Prize at Techfest, IIT-Bombay, 2009
+description: Presented at ROBOGAMES, San Francisco, 2009 <br/> First Prize at Techfest, IIT-Bombay, 2009
 
 
 pictures:

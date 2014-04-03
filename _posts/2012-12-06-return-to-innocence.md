@@ -2,7 +2,7 @@
 title: Return to Innocence
 layout: posts
 category: works
-tags: sculpture portfolio
+tags: sculpture
 description: Sculpture carved on a cake of soap
 
 

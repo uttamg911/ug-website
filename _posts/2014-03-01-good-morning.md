@@ -3,12 +3,12 @@ title: "Good Morning"
 layout: posts
 category: works
 tags: animation portfolio
-description: An experimental stop-motion animation film
+description: An alternate story telling exploration
 
 pictures:
   - url: /images/Good_Morning.jpg
-    caption: Experimental stop motion animation
-    alt: Experimental stop motion animation
+    caption: An alternate story telling exploration
+    alt: An alternate story telling exploration
     label: portfolio
 ---
 

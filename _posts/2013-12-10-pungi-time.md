@@ -1,9 +1,9 @@
 ---
-title: Pungi Time
+title: "Pungi Time: Tangible Interfaces for a Snake Game"
 layout: posts
 category: blog
 tags: pcomp installation portfolio
-description: An interactive two player game that is played by blowing a flute and rolling a sphere.
+description: Showcased at ITP Winter Show, 2013
 
 
 pictures: 

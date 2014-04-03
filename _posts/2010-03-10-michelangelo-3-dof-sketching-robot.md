@@ -3,7 +3,7 @@ title: "Michelangelo: A 3-DOF Sketching Robot"
 layout: posts
 category: works
 tags: robotics portfolio
-description: Presented at International Conference on Robotics and Intelligent Sensors, Nagoya, Japan, 2010 <br/> Silver at ROBOGAMES, San Francisco, 2009
+description: Silver at ROBOGAMES, San Francisco, 2009
 
 
 pictures: 
@@ -21,7 +21,9 @@ pictures:
 <p>
 	<iframe width="480" height="360" src="//www.youtube.com/embed/v23cRTT9Ni4" frameborder="0" allowfullscreen></iframe>
 
-	<object width="480" height="360" type="application/pdf" data="/Michelangelo 3 DOF Sketching Robot_Uttam Grandhi.pdf#view=fitV">
+	<object width="480" height="360" type="application/pdf" data="/Michelangelo 3 DOF Sketching Robot_Uttam Grandhi.pdf#page=1&amp;view=FitH&amp;zoom=80,0,0">
     	<p>Sorry your browser doesn't support .pdf embeds</p>
   	</object>
+
+  	<p style="width: 600px; margin-top: 10px; ">Presented at International Conference on Robotics and Intelligent Sensors <br/>Nagoya University, Nagoya, Japan, 2010.</p>
 </p>

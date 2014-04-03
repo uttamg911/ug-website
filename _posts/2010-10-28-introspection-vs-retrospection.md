@@ -2,7 +2,7 @@
 title: Introspection vs Retrospection
 layout: posts
 category: works
-tags: sculpture portfolio
+tags: sculpture
 description: Sculpture carved on a pumpkin
 
 
