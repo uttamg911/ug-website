@@ -6,7 +6,7 @@ tags: spatial portfolio
 description: A visual alert system for urban farms
 
 pictures:
-  - url: /images/Garden_Aware.jpg
+  - url: /images/Garden_Aware1.jpg
     caption: A visual alert system for urban farms
     alt: A visual alert system for urban farms
     label: portfolio
