@@ -4,6 +4,12 @@ layout: posts
 category: blog
 tags: materials
 description: Tool Box made with 1/4" clear cast acrylic sheet
+
+pictures:
+  - url: /images/AcrylicBox_Final1_LR.jpg
+    caption: Acrylic Tool Box
+    alt: Acrylic Tool Box
+    label: portfolio
 ---
 
 <img style="width:480px" src="/images/AcrylicBox_Final1_LR.jpg"/>

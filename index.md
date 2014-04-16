@@ -1,5 +1,5 @@
 ---
-title: Uttam's Portfolio
+title: Uttam Grandhi
 description: A repository of creative pursuits
 layout: default
 ---

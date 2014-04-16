@@ -2,14 +2,15 @@
 title: Wooden Photo Frame
 layout: posts
 category: blog
-tags: materials
-description: Photo Frame made with salvaged wooden packing
+tags: materials portfolio
+description: Made with salvaged wooden packing
+
+pictures: 
+  - url: /images/PhotoFrame_Final2_LR.jpg
+    caption: Made with salvaged wooden packing
+    alt: Photo Frame
+    label: portfolio
 ---
-
-<img style="width:480px" src="/images/PhotoFrame_Final2_LR.jpg"/>
-
-Happy to anounce a new addition in my room, a photo frame that I made with salvaged wooden packing.
-<br/>At last, the lonely easel board found a companion :)
 
 **Tools & Materials Used**
 
@@ -18,6 +19,11 @@ Happy to anounce a new addition in my room, a photo frame that I made with salva
 * IRWIN's Quick-Grip 36" clamps
 * 3M's 150 grit sand paper
 * Salvaged wood from electronics packing
+
+<img style="width:480px" src="/images/PhotoFrame_Final2_LR.jpg"/>
+
+Happy to anounce a new addition in my room, a photo frame that I made with salvaged wooden packing.
+<br/>At last, the lonely easel board found a companion :)
 
 <img style="width:480px" src="/images/PhotoFrame_Step1_LR.jpg"/>
 

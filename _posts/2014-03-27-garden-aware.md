@@ -2,7 +2,7 @@
 title: "Garden Aware"
 layout: posts
 category: blog
-tags: spatial portfolio
+tags: spatial
 description: A visual alert system for urban farms
 
 pictures:

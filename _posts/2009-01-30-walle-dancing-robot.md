@@ -8,14 +8,14 @@ description: Presented at ROBOGAMES, San Francisco, 2009 <br/> First Prize at Te
 
 pictures:
   - url: /images/WALL-E_v2.JPG
-    caption: WALL.E version 2 ( 10 DOF )
-    alt: WALL.E version 2 ( 10 DOF )
+    caption: Aluminum Version 2 ( 10 DOF )
+    alt: WALL.E version 2 ( made with 3mm aluminum sheet metal )
     label: portfolio
   - url: /images/WALL-E_v1.jpg
-    caption: WALL.E version 1 ( 8 DOF )
+    caption: Aluminum Version 1 ( 8 DOF )
     alt: WALL.E version 1 ( 8 DOF )
   - url: /images/WALL-E_v0.jpg
-    caption: WALL.E Prototype ( Built using styrofoam and paper )
+    caption: Paper Prototype ( made with styrofoam and paper )
     alt: WALL.E Prototype ( Built using styrofoam and paper )
 ---
 

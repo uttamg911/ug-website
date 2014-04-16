@@ -2,7 +2,7 @@
 title: "Good Morning"
 layout: posts
 category: works
-tags: animation portfolio
+tags: animation
 description: An alternate story telling exploration
 
 pictures:
