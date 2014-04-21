@@ -25,6 +25,7 @@ pictures:
   - url: /images/Burj_Al_Arab006.jpg
     alt: Completed Burj Al Arab ( Isometric View )
     caption: Completed Burj Al Arab ( Isometric View )
+    label: portfolio
   
 ---
 
