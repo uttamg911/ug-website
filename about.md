@@ -15,7 +15,7 @@ pictures:
  <img style="width:600px;" src="{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
 {% endfor %}
 
-<p>Uttam Grandhi has a strong passion for product design, sculpture and physical computing. He is currently pursuing Tisch School of Arts' Interactive Telecommunications Program (ITP) at New York University. Through ITP he looks forward to creating innovative products and interactive experiences. </p>
+<p>Uttam Grandhi has a strong passion for design, sculpture and physical computing. He is currently pursuing Tisch School of Arts' Interactive Telecommunications Program (ITP) at New York University. Through ITP he looks forward to creating innovative products and interactive experiences. </p>
 
 <p>Uttam holds a dual degree in Physics and Mechanical Engineering from Birla Institute Of Technology and Science (BITS), Pilani and a diploma in "Digital Character Animation" from Vancouver Film School </p>
 

@@ -2,7 +2,7 @@
 title: "Michelangelo: A 3-DOF Sketching Robot"
 layout: posts
 category: works
-tags: robotics
+tags: robotics portfolio
 description: Silver at ROBOGAMES, San Francisco, 2009
 
 
