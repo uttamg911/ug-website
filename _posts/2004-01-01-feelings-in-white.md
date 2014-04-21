@@ -2,7 +2,7 @@
 title: Feelings in White
 layout: posts
 category: blog
-tags: sculpture portfolio
+tags: sculpture
 description: Various sculptures carved on chalk
 
 
