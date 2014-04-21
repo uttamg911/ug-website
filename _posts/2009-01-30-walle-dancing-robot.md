@@ -19,11 +19,11 @@ pictures:
     alt: WALL.E Prototype ( Built using styrofoam and paper )
 ---
 
+<p>
+  <iframe width="480" height="360" src="//www.youtube.com/embed/QrACgJU7o-4" frameborder="0" allowfullscreen></iframe>
+</p>
+
 {% for p in page.pictures %}
  <img style="width:480px;" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
  <span style="display:block">{{p.caption}}</span>
 {% endfor %}
-
-<p>
-	<iframe width="480" height="360" src="//www.youtube.com/embed/QrACgJU7o-4" frameborder="0" allowfullscreen></iframe>
-</p>
