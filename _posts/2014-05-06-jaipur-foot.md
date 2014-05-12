@@ -1,5 +1,5 @@
 ---
-title: "Short study on Jaipur Foot"
+title: "Jaipur Foot"
 layout: posts
 category: blog
 tags: assistivetech itp dat
@@ -7,15 +7,15 @@ description: Assistive Technology Assignment
 
 
 pictures: 
-  - url: /images/Wheel_Chair_Umbrella_Page1.jpg
-    alt: Design considerations and concept
-    caption: Design considerations and concept
-  - url: /images/Wheel_Chair_Umbrella_Page2.jpg
-    alt: Umbrella Mechanism
-    caption: Umbrella Mechanism
-  - url: /images/Wheel_Chair_Umbrella_Page3.jpg
-    alt: Other considerations
-    caption: Other considerations
+  - url: 
+    alt: 
+    caption: 
+  - url:
+    alt:
+    caption:
+  - url:
+    alt:
+    caption:
 
 ---
 
