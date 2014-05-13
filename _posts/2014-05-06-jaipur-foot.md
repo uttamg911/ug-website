@@ -8,11 +8,11 @@ description: Assistive Technology Assignment
 
 pictures: 
   - url: /images/JF_Above_Knee.jpg
-    alt: Jaipur Foot Above Knee Prosthesis
+    alt: Above Knee Prosthesis
     caption: Above Knee Prosthesis
   - url: /images/JF_Below_Knee.jpg
     alt: Below Knee Prosthesis
-    caption: Jaipur Foot Below Knee Prosthesis
+    caption: Below Knee Prosthesis
   - url: /images/JF_Jaipur_Stanford_Knee.jpg
     alt: Jaipur Stanford Knee
     caption: Jaipur Stanford Knee
