@@ -9,7 +9,6 @@ pictures:
   - url: /images/PhotoFrame_Final2_LR.jpg
     caption: Made with salvaged wooden packing
     alt: Photo Frame
-    label: portfolio
 ---
 
 **Tools & Materials Used**
