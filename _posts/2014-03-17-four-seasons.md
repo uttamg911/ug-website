@@ -3,7 +3,7 @@ title: Four Seasons
 layout: posts
 category: works
 tags: materials pop-up sculpture portfolio
-description: A pop-up sculpture
+description: My first pop-up book
 
 pictures: 
   - url: /images/4Seasons_1.jpg
