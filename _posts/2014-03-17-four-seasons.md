@@ -2,8 +2,9 @@
 title: Four Seasons
 layout: posts
 category: works
-tags: materials pop-up sculpture portfolio
+tags: materials pop-up sculpture 
 description: My first pop-up book
+
 
 pictures: 
   - url: /images/4Seasons_1.jpg
@@ -13,7 +14,7 @@ pictures:
     alt: 
     caption: One Day Mr. Housie moved into a new neighborhood. Little did he know that it is a REAL mean place.
   - url: /images/4Seasons_3.jpg
-    alt: Summer 
+    alt: Summer
     caption: First it was Mr. Sunnie who tortured poor Housie with his bright lights.
   - url: /images/4Seasons_4.jpg
     alt: Rain
@@ -23,12 +24,11 @@ pictures:
     caption: But Housie wouldn't give up! Because Sunnie and Cloudie made RAIN'BOW's.
   - url: /images/4Seasons_6.jpg
     alt: Winter
-    caption: Sunnie and Cloudie were so scared that it actually made them fall sick.  
+    caption: Sunnie and Cloudie were so scared that it actually made them fall sick.
   - url: /images/4Seasons_7.jpg
-  	alt: Spring
-  	caption: But in the end, they realized they all belonged to the same neighborhood and could be FRIENDS FOREVER
-  	label: portfolio
-
+    alt: Spring
+    caption: But in the end, they realized they all belonged to the same neighborhood and could be FRIENDS FOREVER
+  
 ---
 
 **Tools & Materials Used**
@@ -41,7 +41,6 @@ pictures:
 * Cutting Mat
 
 {% for p in page.pictures %}
- <img style="width:480px; height: auto" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
+ <img style="width:480px; height: 640" src="{{site.assetURL}}{{p.url}}" title="{{p.alt}}" alt="{{p.alt}}"/>
  <span style="display:block">{{p.caption}}</span>
 {% endfor %}
-
