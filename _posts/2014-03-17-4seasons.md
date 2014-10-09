@@ -1,5 +1,5 @@
 ---
-title: 4 Seasons
+title: Four Seasons
 layout: posts
 category: works
 tags: materials pop-up sculpture portfolio
