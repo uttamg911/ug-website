@@ -2,7 +2,7 @@
 title: Wooden Photo Frame
 layout: posts
 category: blog
-tags: materials portfolio
+tags: materials
 description: Made with salvaged wooden packing
 
 pictures: 
