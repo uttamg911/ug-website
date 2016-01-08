@@ -30,7 +30,7 @@ Monty Python + programming
 
 Below is the code which made this possible!
 
-{% gist 9401724 %}
+<script src="https://gist.github.com/uttamg911/9401724.js"></script>
 
 
 

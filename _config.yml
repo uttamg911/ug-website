@@ -9,8 +9,10 @@ assetURL: "http://utt.am"
 
 markdown: rdiscount
 permalink: pretty
-pygments: true
+#highlighter: pygments
 safe: true
 lsi: false
 
-
+gems:
+ - jekyll-gist
+ - jekyll-paginate
