@@ -5,16 +5,16 @@ category: blog
 tags: itp rwet
 ---
 
-This piece has been deeply inspired by Telugu Prosody ( a.k.a [Chandassu](http://en.wikipedia.org/wiki/Telugu_grammar#Chandassu_or_Telugu_prosody) ). It is a form of Metrical poetry where a certain structure is followed to form a verse or lines of a verse. A detailed description on [Metre](http://en.wikipedia.org/wiki/Meter_(poetry)) is available on wikipedia 
+This piece has been deeply inspired by Telugu Prosody ( a.k.a [Chandassu](http://en.wikipedia.org/wiki/Telugu_grammar#Chandassu_or_Telugu_prosody) ). It is a form of Metrical poetry where a certain structure is followed to form a verse or lines of a verse. A detailed description on [Metre](http://en.wikipedia.org/wiki/Meter_(poetry)) is available on wikipedia
 
 The poetic form I devised is very loosely based on [Amphibrach](http://www.thehungrypoet.co.uk/tag/amphibrachic/) foot type in which a long syllable is between two short syllables.
-The poem consists of three lines and three letter words. A word is formed by wrapping two single letter phonemes over a two letter phoneme. 
+The poem consists of three lines and three letter words. A word is formed by wrapping two single letter phonemes over a two letter phoneme.
 
-Eg: 
+Eg:
 
-I-U-I , where U is a two letter phoneme and I is a single letter phoneme 
+I-U-I , where U is a two letter phoneme and I is a single letter phoneme
 
-Few examples of the poems 
+Few examples of the poems
 
 <p style="background:#eee; padding:15px;"><i>
 spivack precariously sweetheart: P-IH1-V V-AH0-K R-IH0-K K-EH1-R R-IY0-AH0 IY0-AH0-S R-IY0-AH0 W-IY1-T T-HH-AA2 HH-AA2-R<br/>
@@ -34,12 +34,9 @@ typists lid boteler: T-AY1-P P-IH0-S L-IH1-D B-AA1-T T-AH0-LM<br/>
 records' nontraditional chriboniko: R-EH1-K K-ER0-D N-AA2-N R-AH0-D D-IH1-SH IH1-SH-AH0 R-AH0-D R-AH0-D R-IY2-B B-OW0-N N-IY1-K B-OW0-N
 </i></p>
 
-I used CMU's pronunciation dictionary library for NLTK in Python to randomly fetch words and their phonetic information which I formatted based on the I-U-I rule ( described above ) to construct the lines of the poem. 
+I used CMU's pronunciation dictionary library for NLTK in Python to randomly fetch words and their phonetic information which I formatted based on the I-U-I rule ( described above ) to construct the lines of the poem.
 
-Below is the python code which generated the poems. 
+Below is the python code which generated the poems.
 
 {% gist uttamg911/9857258 %}
-
-
-
-
+<script src="https://gist.github.com/uttamg911/9857258.js"></script>
