@@ -9,14 +9,10 @@ assetURL: "http://utt.am"
 
 markdown: rdiscount
 permalink: pretty
-<<<<<<< HEAD
 highlighter: pygments
-=======
-#highlighter: pygments
->>>>>>> a5031df09faea0e24a762343cd700fcc967bec57
 safe: true
 lsi: false
-gems: 
+gems:
  - jekyll-gist
 
 gems:
