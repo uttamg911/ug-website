@@ -5,7 +5,8 @@ category: about
 ---
 
 <p style="margin:0px; text-align: center">
-	<object width="830px" height="700px" type="application/pdf" data="/Resume_Uttam Grandhi.pdf">
+	<img height="100%" src="/Resume_Uttam_Grandhi_07112017.png"/>
+	<!--<object width="830px" height="700px" type="application/pdf" data="/Resume_Uttam Grandhi.pdf">
     	<p>Sorry your browser doesn't support .pdf embeds</p>
-  	</object>
+  	</object>-->
 </p>

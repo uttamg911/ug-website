@@ -8,8 +8,6 @@ tags: itp icm
 
 <iframe src="//player.vimeo.com/video/77471817" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-{% highlight java %}
-
 //Importing video library for processing
 import processing.video.*;
 
@@ -51,5 +49,3 @@ void draw(){
       ellipse(r1+size,r2+size,size, size);
     }
 }
-
-{% endhighlight %}

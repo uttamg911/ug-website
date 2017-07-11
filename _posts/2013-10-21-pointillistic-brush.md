@@ -26,8 +26,6 @@ pictures:
 * The user can also choose to clear the drawings. [ Hotkey: 'r' or 'R' ]
 * Information at the bottom of the screen can be turned on and off. [ Hotkey: 'i' or 'I']
 
-{% highlight java %}
-
 //Importing video library for processing
 import processing.video.*;
 
@@ -165,5 +163,3 @@ void keyPressed() {
   }
   
 }
-
-{% endhighlight %}

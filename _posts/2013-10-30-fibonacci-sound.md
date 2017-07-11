@@ -14,8 +14,6 @@ This sketch is an attempt to sonify the first 40 numbers of the fibonacci sequen
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124608817&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
 
-{% highlight java %}
-
 import ddf.minim.*;
 import ddf.minim.ugens.*;
 
@@ -56,5 +54,3 @@ int fibonacci(int n){
   else
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
-
-{% endhighlight %}

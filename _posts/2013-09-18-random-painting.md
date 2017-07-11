@@ -26,9 +26,6 @@ pictures:
 
 <iframe style="margin-top:20px; display:block;" width="640" height="640" scrolling="no" frameborder="0" src="http://www.openprocessing.org/sketch/110208/embed/?width=600&height=600&border=true"></iframe>
 
-
-{% highlight java %}
-
 //Random Painting created by Uttam Grandhi during Fall-2013 for the course Introduction to Computational Media (ICM) taught by Prof. Daniel Shiffman at the Interactive Telecommunications Program (ITP), NYU.
 //Click to focus the canvas
 //Hold 'h' or 'H' to paint
@@ -67,5 +64,3 @@ void draw(){
       }
   
 }
-
-{% endhighlight %}

@@ -14,9 +14,6 @@ The bouncing box has messed up with its physics, instead of dying out on each bo
 
 <iframe style="margin-top:20px; display:block;" width="640" height="400" scrolling="no" frameborder="0" src="http://www.openprocessing.org/sketch/124624/embed/?width=640&height=360&border=true"></iframe>
 
-
-{% highlight java %}
-
 //Declare box variables
 Box b1;
 
@@ -80,5 +77,3 @@ class Box {
     println(y);
   }
 }
-
-{% endhighlight %}

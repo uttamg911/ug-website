@@ -7,17 +7,27 @@ tags: itp rwet
 
 This python code snippet inverts the words in a line.
 
-{% gist 9124985 %}
+import sys #imports system files
+
+for line in sys.stdin:
+	line = line.strip() # Tabs tell python that it is part of the loop
+	word = line.split(' ')
+	s = ''
+	for i in range(1,len(word)+1):
+		s = s + word[len(word)-i] + ' '
+	print s
 
 A better way to write the above code. 
 
-{% gist 9317783 %}
+import sys #imports system files
+
+for line in sys.stdin:
+        line = line.strip() # Strips a string of its trailing white spaces # Tabs tell python that it is part of the loop
+        word = line.split(' ') # Makes a list of substrings by using space as as delimiter 
+        s = ' '.join(word[::-1]) # [::-1] reverses the contents of a list # The syntax for join is counter intuitive, first you write the delimiter and then the list.
+        print s # Prints the string 
 
 Thanks [@aparrish](https://twitter.com/aparrish "Adam Parrish") for the tip.
-
-<!--This unix script translates the letters of a word to numbers ( a-z or A-Z to 1-26 )
-
-{% gist 9125443 %}-->
 
 Example:
 

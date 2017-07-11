@@ -15,9 +15,6 @@ I am really inspired by the Indian tradition of [kolam designs](http://timwaring
 
 <iframe style="margin-top:20px; display:block;" width="640" height="400" scrolling="no" frameborder="0" src="http://www.openprocessing.org/sketch/124568/embed/?width=640&height=360&border=true"></iframe>
 
-
-{% highlight java %}
-
 //Kolam Pattern created by Uttam Grandhi during Fall-2013 for the course Introduction to Computational Media (ICM) taught by Prof. Daniel Shiffman at the Interactive Telecommunications Program (ITP), NYU.
 //Disclaimer: This is a work in progress and is not complete.
 //This is a humble attempt to create a kolam pattern in processing after being inspired by 10PRINT
@@ -92,5 +89,3 @@ void draw() {
     noLoop();
   }
 }
-
-{% endhighlight %}

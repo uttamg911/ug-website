@@ -24,9 +24,6 @@ Leveraging green values of the pixel data in Flickr favicon
 <iframe src="//player.vimeo.com/video/81785837" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 Leveraging brightness values of the pixel data in Instagram favicon
 
-
-{% highlight java %}
-
 //Sound of Favicons
 //The sketch involves sonifications of a website's favicons.
 //The green channel in the pixel data of a favicon image ( fetched by a url )
@@ -119,5 +116,3 @@ void draw() {
 //------------------------------------------------------------------------------------
 
 //End
-
-{% endhighlight %}

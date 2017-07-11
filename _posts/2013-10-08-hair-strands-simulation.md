@@ -13,9 +13,6 @@ This sketch is a very crude simulation of hair strands implemented as an arrayli
 
 <iframe style="margin-top:20px; display:block;" width="640" height="640" scrolling="no" frameborder="0" src="http://www.openprocessing.org/sketch/124625/embed/?width=640&height=640&border=true"></iframe>
 
-
-{% highlight java %}
-
 //Declaring and initializing strand objects
 ArrayList<Strand> strands;
 
@@ -86,5 +83,3 @@ void sway() {
 }
 
 }
-
-{% endhighlight %}

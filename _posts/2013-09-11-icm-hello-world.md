@@ -15,9 +15,6 @@ I created this piece after an overwhelming talk by [Carter Emmart](http://www.te
 
 <iframe style="margin-top:20px; display:block;" width="640" height="400" scrolling="no" frameborder="0" src="http://www.openprocessing.org/sketch/109229/embed/?width=640&height=360&border=true"></iframe>
 
-
-{% highlight java %}
-
 //Hello World! created by Uttam Grandhi during Fall-2013 for the course Introduction to Computational Media (ICM) taught by Prof. Daniel Shiffman at the Interactive Telecommunications Program (ITP), NYU.
 //Overwhelmed by an inspiring talk by Carter Emmart
 
@@ -77,5 +74,3 @@ void draw(){
 
     theta = theta+0.01;
 }
-
-{% endhighlight %}

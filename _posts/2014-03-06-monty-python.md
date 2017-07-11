@@ -30,7 +30,15 @@ Monty Python + programming
 
 Below is the code which made this possible!
 
-{% gist 9401724 %}
+#The file python.txt contains the raw html lines that contain the word 'Python' ( scrapped from rwet.decontextualize.com )
+#imports the regular expression libraries
+import re
+
+file = open("python.txt","r"); #opens the text file in read mode
+f = file.read(); #reads the text file into a string
+t = re.sub('<[^<]+?>', '', f).replace("Python","Monty Python"); #strips the html code and replaces the word "Python" with "Monty Python"
+t = t.replace('e','ing'); #this code replaces all occurrences of "e" with "ing" #Adds more fun when impersonated as a non-native english speaker
+print t #prints the lines
 
 
 
