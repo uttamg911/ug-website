@@ -2,16 +2,16 @@
 title: Four Seasons
 layout: posts
 category: works
-tags: materials pop-up sculpture portfolio
+tags: materials pop-up sculpture
 description: My first pop-up book
 
 
-pictures: 
+pictures:
   - url: /images/4Seasons_1.jpg
     alt: 4 Seasons Cover
     caption: The cover is designed in Adobe Illustrator and  etched on 1/4 inch MDF using Epilog Mini 50 Watt Laser Cutter
   - url: /images/4Seasons_2.jpg
-    alt: 
+    alt:
     caption: One Day Mr. Housie moved into a new neighborhood. Little did he know that it is a REAL mean place.
   - url: /images/4Seasons_3.jpg
     alt: Summer
@@ -20,7 +20,7 @@ pictures:
     alt: Rain
     caption: Next comes Mr. Cloudie who drenched Housie with rain.
   - url: /images/4Seasons_5.jpg
-    alt: 
+    alt:
     caption: But Housie wouldn't give up! Because Sunnie and Cloudie made RAIN'BOW's.
   - url: /images/4Seasons_6.jpg
     alt: Winter

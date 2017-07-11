@@ -38,5 +38,4 @@ I used CMU's pronunciation dictionary library for NLTK in Python to randomly fet
 
 Below is the python code which generated the poems.
 
-{% gist uttamg911/9857258 %}
 <script src="https://gist.github.com/uttamg911/9857258.js"></script>

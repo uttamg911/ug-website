@@ -9,7 +9,7 @@ This python code snippet inverts the words in a line.
 
 import sys #imports system files
 
-{% gist 9124985 %}
+<script src="https://gist.github.com/uttamg911/9124985.js"></script>
 
 for line in sys.stdin:
 	line = line.strip() # Tabs tell python that it is part of the loop
@@ -21,7 +21,7 @@ for line in sys.stdin:
 
 A better way to write the above code.
 
-{% gist 9317783 %}
+<script src="https://gist.github.com/uttamg911/9317783.js"></script>
 
 import sys #imports system files
 
@@ -35,7 +35,7 @@ Thanks [@aparrish](https://twitter.com/aparrish "Adam Parrish") for the tip.
 
 This unix script translates the letters of a word to numbers ( a-z or A-Z to 1-26 )
 
-{% gist 9125443 %}
+<script src="https://gist.github.com/uttamg911/9125443.js"></script>
 
 
 Example:

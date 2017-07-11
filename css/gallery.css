@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6 {
 .header .pure-menu {
     border-bottom-color: black;
     border-radius: 0;
+    padding:0;
 }
 
 .photo-box, .text-box {

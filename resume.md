@@ -1,9 +1,9 @@
 ---
 title: Resume Uttam Grandhi
-layout: default
+layout: resume_layout
 category: about
 ---
 
 <p style="margin:0px; text-align: center">
-	<img height="100%" src="/Resume_Uttam_Grandhi_07112017.png"/>
+	<img width="70%" src="/Resume_Uttam_Grandhi_07112017.png"/>
 </p>
