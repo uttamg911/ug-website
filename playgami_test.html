@@ -68,10 +68,10 @@
 				document.body.appendChild( container );
 
 				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
-				camera.position.set( 100, 200, 300 );
+				camera.position.set( 100, 300, 100 );
 
 				controls = new THREE.OrbitControls( camera );
-				controls.target.set( 0, 100, 0 );
+				controls.target.set( 0, 0, 0 );
 				controls.update();
 
 				scene = new THREE.Scene();
